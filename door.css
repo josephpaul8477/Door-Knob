@@ -1,0 +1,53 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: burlywood;
+
+}
+.back{
+    height: 160px;
+    width: 160px;
+    border-radius: 100px;
+    background-color: #824b21;
+    position: relative;
+    margin-top: 200px;
+}
+.front{
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: 200px;
+}
+.semi{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    border: 15px solid rgba(0, 0, 0, 0);
+    border-bottom-color: salmon;
+    border-right-color: salmon;
+    position: absolute;
+    transform: rotate(45deg);
+    margin-top: 200px;
+}
+.small{
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    position: absolute;
+    background-color: salmon;
+    margin-top: 200px;
+    margin-right: 95px;
+    
+}
+.small1{
+    width: 15px;
+    height: 15px;
+    background-color: salmon;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 95px;
+}
